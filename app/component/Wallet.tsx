@@ -71,7 +71,7 @@ export const Wallet: FC<Props> = ({ children }) => {
 			new WalletConnectWalletAdapter({
 				network: WalletAdapterNetwork.Mainnet,
 				options: {
-					projectId: process.env.WALLET_CONNECT_ID,
+					projectId: "546aa0fb337c296cf1683e6e5373bfc9",
 				},
 			}),
 		],
